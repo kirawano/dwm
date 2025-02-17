@@ -68,5 +68,5 @@ static const struct arg args[] = {
 	{ run_command, "󰖩 %s  ", "iwgetid -r"}, 
 	{ cpu_perc, " %s  ", "NULL"},
 	{ run_command, " %s  ",	    "pamixer --get-volume"},
-	{ datetime, "%s",           "%H:%M %b %d" },
+	{ datetime, "%s",           "%H:%M %b %d " },
 };
