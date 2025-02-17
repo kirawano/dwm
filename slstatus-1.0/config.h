@@ -67,6 +67,7 @@ static const struct arg args[] = {
 	/* function format          argument */
 	{ run_command, "󰖩 %s  ", "iwgetid -r"}, 
 	{ cpu_perc, " %s  ", "NULL"},
-	{ run_command, " %s  ",	    "pamixer --get-volume"},
+	{ run_command, " %s  ",	    "pamixer --get-volume-human"},
+	{run_command, "󰁹 %s  ", "cat /sys/class/power_supply/BAT0/capacity" },
 	{ datetime, "%s",           "%H:%M %b %d " },
 };
