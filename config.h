@@ -76,7 +76,7 @@ static const char *brightupcmd[] = { "brightnessctl", "set", "5%+", NULL };
 static const char *brightdowncmd[] = { "brightnessctl", "set", "5%-", NULL };
 
 // scrot 
-static const char *scrotcmd[] = { "maim", "-s", "|", "xclip", "-selection", "clipboard", "-t", "image/png", NULL };
+static const char *scrotcmd[] = { "scrot", "-s", NULL };
 static const char *scrotsel[] = { "maim", "-s", "~/Pictures/$(date", "+%s).png" };
 
 
